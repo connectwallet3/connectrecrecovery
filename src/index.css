@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Open+Sans:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1b152e;
+  color: #ffffff;
+  font-family: "Montserrat Alternates", sans-serif;
+  overflow-x: hidden;
+}
+span {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+button {
+  border: none;
+  background: #8863fc;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 10px;
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+  font-size: 400;
+  line-height: 23px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 428px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
+
+/* Loader  */
+.loader {
+  font-size: 10px;
+  margin: 0 auto;
+  text-indent: -9999em;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background: #fff;
+  background: -moz-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(
+    left,
+    #fff 10%,
+    rgba(255, 255, 255, 0) 42%
+  );
+  background: -o-linear-gradient(left, #ffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: transparent;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+}
+.loader:after {
+  background: #1b152e;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: "";
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* PreLoader */
+
+/* Loader  */
+.loaderr {
+  font-size: 10px;
+  margin: 0 auto;
+  text-indent: -9999em;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background: #fff;
+  background: -moz-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(
+    left,
+    #fff 10%,
+    rgba(255, 255, 255, 0) 42%
+  );
+  background: -o-linear-gradient(left, #ffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loaderr:before {
+  width: 50%;
+  height: 50%;
+  background: transparent;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+}
+.loaderr:after {
+  background: #1b152e;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: "";
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* PreLoader */
