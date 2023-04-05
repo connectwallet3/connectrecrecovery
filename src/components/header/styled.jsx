@@ -8,7 +8,7 @@ export const Head = styled.section`
 
 
   img {
-    width: 290px;
+    width: 200px;
   }
 
   ul li {
